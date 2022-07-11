@@ -1,0 +1,123 @@
+#header{
+	height: 65px;
+}
+#footer{
+	height: 100px;
+	background-color: #F1F1F1;
+	margin-top: 50px;
+	font-size: 13px;
+}
+.main_img_bg{
+	height: 480px;
+	width: 640px;
+}
+.main_img-hovertxtbox{
+	position: relative;
+    bottom: 130px;
+    background-color: #f1f1f1;
+    opacity: 0.9;
+	margin-left: 8px;
+	margin-right: 8px;
+    padding: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	width: 625px;
+}
+.main_img-hovertxtheading{
+	font-size: 22px;
+	color: #01A982;
+	font-weight: bold;
+}
+.main_small_imgs{
+	height: 240px;
+	width: 310px;
+}
+.main_small_imgs_text{
+	font-size: 28px;
+	font-weight: bold;
+	color: #FFF;
+	position: relative;
+	bottom: 50%;
+	margin-left: 20px;
+}
+.card_headings{
+	font-size: 18px;
+	font-weight: bold;
+	color: #7630EA;
+}
+.text_colors_green{
+	color: #01A982;
+}
+.btn-primary{
+	background-color: #01a982;
+	border: none !important;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus{
+	background-color: #009371;
+	color: #fff;
+	border:none;
+}
+.btn-secondary{
+	background-color: #ccc;
+	border: none !important;
+}
+.list-group-item{
+	border: none !important;
+}
+.connection_btn{
+	position: absolute;
+    right: 0;
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: tb-lr;
+    writing-mode: vertical-lr;
+    width: 35px;
+	height: 200px;
+    text-align: center;
+    top: 200px;
+    font-size: 12px;
+    font-weight: 700;
+    z-index: 3;
+    padding: 10px;
+	background-color: #7630EA;
+	color: #FFF;
+	border-radius: 5px;
+}
+.btn_padd{
+	padding-left: 50px;
+	padding-right:50px;
+}
+.subheadings{
+	color: #01A982;
+}
+.subtexts{
+	font-size: 11px;
+}
+.sidenav_heading{
+	background-color: #01a982;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.image_upload{
+	height: 150px;
+	background-color: floralwhite;
+	
+}
+.top_links{
+	text-decoration: none !important;
+	color: #000 !important;
+	padding-bottom: 20px;
+}
+.top_links:hover{
+	color: #01a982 !important;
+	border-bottom: 2px solid #01a982;
+}
+.banner_links{
+	text-decoration: none !important;
+	color: #FFF !important;
+}
+.banner_links:hover{
+	color: #7FF9E2 !important;
+}
