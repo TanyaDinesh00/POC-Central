@@ -4,38 +4,10 @@
 <head>
 	<meta charset="utf-8">
 	<title>POC Central</title>
-	<!-- <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-	<link href="css/pocc.css" rel="stylesheet" type="text/css">
-	<link href="css/sidebars.css" rel="stylesheet" type="text/css">
-	<script src="https://kit.fontawesome.com/795c37d367.js" crossorigin="anonymous"></script>
-	<script language="javascript" src="js/bootstrap.min.js"></script>
-	<script language="javascript" src="js/jquery-2.2.4.min.js"></script> -->
 </head>
 
 <body>
-	<header id="header" class="container">
-		<div class="col-12 row">
-			<div class="col-4"> <a href="#"><img src="/assets/images/hpe-logo-blk.png" width="auto" height="65"
-						alt="" /></a>
-			</div>
-			<div class="col-6 mt-3">
-				<ul class="list-group list-group-horizontal">
-					<li class="list-group-item"><a  class=" top_links" routerLink="/home">HOME</a></li>
-					<!-- <li class="list-group-item"><a href="app-modern.html" speech.html"" class="top_links">APPLICATION
-							MODERNIZATION</a></li> -->
-							
-					<li class="list-group-item"><a  class="top_links" routerLink="/modernization">APP MODERNIZATION</a></li>
-					<li class="list-group-item"><a href="text.html" class="top_links">TEXT</a></li>
-					<li class="list-group-item"><a href="vision.html" class="top_links">VISION</a></li>
-					<li class="list-group-item">CLASSIC ML</li>
-					<li class="list-group-item"><a href="http://localhost:4500/" class="top_links">Login</a></li>
-				</ul>
-			</div>
-			<div class="col-2 mt-4" align="right">
-				<img src="/assets/images/Slice 12.png" width="26" height="26" alt="" />
-			</div>
-		</div>
-	</header>
+	<app-header></app-header>
 	<div id="content" class="container">
 		<div class="col-12 pt-4">
 			<h2><strong>POC Central</strong></h2>
@@ -149,16 +121,7 @@
 
 		</div>
 	</div>
-	<div id="footer">
-		<div class="col-12 mt-3">
-			<div class="col-12" align="center">© Copyright 2022 Hewlett Packard Enterprise Development LP</div>
-			<div class="col-12" align="center">Privacy | Terms of Use | Ad Choices & Cookies | Do Not Sell My Personal
-				Information | Sitemap</div>
-		</div>
-		<div align="center" class="col-12 mt-4"><img src="/assets/images/hpe_element_rgb.svg" width="88" height="25"
-				alt="" />
-		</div>
-	</div>
+	<app-footer></app-footer>
 </body>
 
 </html>

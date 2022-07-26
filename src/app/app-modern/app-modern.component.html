@@ -1,237 +1,95 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Application Modernization</title>
-    <!-- <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="css/pocc.css" rel="stylesheet" type="text/css">
-    <link href="css/sidebars.css" rel="stylesheet" type="text/css"> -->
-    <!-- <script src="https://kit.fontawesome.com/795c37d367.js" crossorigin="anonymous"></script>
-    <script language="javascript" src="js/bootstrap.min.js"></script>
-    <script language="javascript" src="js/jquery-2.2.4.min.js"></script> -->
-</head>
+  </head>
 
-<body>
-    <header id="header" class="container">
-        <div class="col-12 row">
-            <div class="col-4"> <a href="landing.html"><img src="/assets/images/hpe-logo-blk.png" alt="" width="auto" height="65"
-                        border="0" /></a> </div>
-            <div class="col-6 mt-3">
-                <ul class="list-group list-group-horizontal">
-                    <li class="list-group-item"><a  class=" top_links" routerLink="/home">HOME</a></li>
-                    <li class="list-group-item"><a class="top_links" href="app-modern.html">APPLICATION
-                            MODERNIZATION</a></li>
-                    <li class="list-group-item"><a href="text.html" class="top_links">TEXT</a></li>
-                    <li class="list-group-item"><a href="vision.html" class="top_links">VISION</a></li>
-                    <li class="list-group-item">CLASSIC ML</li>
-                    <li class="list-group-item"><a href="vision.html" class="top_links">Login</a></li>
-                </ul>
-            </div>
-            <div class="col-2 mt-4" align="right">
-                <img src="/assets/images/Slice 12.png" width="26" height="26" alt="" />
-            </div>
-        </div>
-    </header>
-    <!--<div role="button" id="connection-btn" class="connection_btn">
-		Connection
-	</div>-->
+  <body>
+    <app-header></app-header>
+
     <div id="content" class="container">
-        <div class="col-12 row mt-5">
-            <div class="col-2 border-end">
-                <div class="sidenav_heading" align="center">
-                    Application Modernization
-                </div>
-                <div class="col-12">
-                    <ul class="list-unstyled ps-0">
-                        <li class="mb-1">
-                            <button class="btn align-items-center rounded">
-                                About / Overview</button>
-                        </li>
-                        <li class="mb-1">
-                            <button class="btn btn-toggle align-items-center rounded collapsed"
-                                data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
-                                Use cases List
-                            </button>
-                            <div class="collapse" id="dashboard-collapse" style="">
-                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                    <li><a href="#" class="link-dark rounded">Application Containerization</a></li>
-                                    <li><a href="#" class="link-dark rounded">Application Containerization with
-                                            Devsecops Cluster</a></li>
-                                    <li><a class="link-dark rounded" routerLink="/event-driven">Event Driven Architecture</a></li>
-                                    <li><a href="#" class="link-dark rounded">Monolithic to Micro service</a></li>
-                                    <li><a href="#" class="link-dark rounded">Application Microservice Development</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="mb-1">
-                            <button class="btn align-items-center">
-                                Documentation
-                            </button>
-
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
-            <div class="col-10">
-                <div class="col-12">
-
-                    <h5 class="subheadings">Application Modernization</h5>
-                    <p>Legacy modernization, also known as software modernization or platform modernization, refers to
-                        the conversion, rewriting or porting of a legacy system to modern computer programming
-                        languages, architectures, software libraries, protocols or hardware platforms
+      <div class="col-12 row mt-5">
+        <div class="col-2 border-end">
+          <app-side-navbar></app-side-navbar>
+        </div>
+        <div class="col-10">
+          <div class="col-12">
+            <h5 class="subheadings">Application Modernization</h5>
+            <p>
+              Legacy modernization, also known as software modernization or
+              platform modernization, refers to the conversion, rewriting or
+              porting of a legacy system to modern computer programming
+              languages, architectures, software libraries, protocols or
+              hardware platforms
+            </p>
+          </div>
+          <div class="col-12">
+            <ul class="mt-4">
+              <li>
+                Analysis the existing portfolio: measuring the technical quality
+                and business value. Confronting the technical quality with
+                business goals to define the right strategy: replace, no go, low
+                priority, good candidate.
+              </li>
+              <li>
+                Identify stakeholders: all persons involved in the software
+                modernization: developers, testers, customers, end-users,
+                architects
+              </li>
+              <li>
+                Create the Business Case: the business case supports the
+                decision process in considering different approaches when
+                decision makers need it.
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 mt-3">
+            <h5 class="subheadings">Advantages</h5>
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Advantages 1</h5>
+                    <p class="card-text">
+                      Leverage HPE’s most advanced deep learning neural network
+                      algorithms for automatic speech recognition (ASR).
                     </p>
-                    <!--<div align="center" class="d-grid gap-2 d-md-block col-12">
-  <button class="btn btn-primary btn_padd" type="button">Start for free</button>
-  <button class="btn btn-secondary btn_padd" type="button">Contact Sales</button>
-</div>-->
+                    <a href="#" class="btn btn-secondary">View</a>
+                  </div>
                 </div>
-                <div class="col-12">
-                    <ul class="mt-4">
-                        <li>Analysis the existing portfolio: measuring the technical quality and business value.
-                            Confronting the technical quality with business goals to define the right strategy: replace,
-                            no go, low priority, good candidate.
-
-                        </li>
-                        <li>Identify stakeholders: all persons involved in the software modernization: developers,
-                            testers, customers, end-users, architects
-                        </li>
-                        <li>Create the Business Case: the business case supports the decision process in considering
-                            different approaches when decision makers need it.</li>
-                    </ul>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Advanteges 2</h5>
+                    <p class="card-text">
+                      Experiment with, create, and manage custom resources with
+                      the Speech-to-Text UI.
+                    </p>
+                    <a href="#" class="btn btn-secondary">More</a>
+                  </div>
                 </div>
-                <div class="col-12 mt-3">
-                    <h5 class="subheadings">Advantages</h5>
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Advantages 1</h5>
-                                    <p class="card-text">Leverage HPE’s most advanced deep learning neural network
-                                        algorithms for automatic speech recognition (ASR).</p>
-                                    <a href="#" class="btn btn-secondary">View</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Advanteges 2</h5>
-                                    <p class="card-text">Experiment with, create, and manage custom resources with the
-                                        Speech-to-Text UI.</p>
-                                    <a href="#" class="btn btn-secondary">More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Advantages 3</h5>
-                                    <p class="card-text">Deploy ASR wherever you need it, whether in the cloud with the
-                                        API or on-premises with Speech-to-Text On-Prem.<br>
-                                    </p>
-                                    <a href="#" class="btn btn-secondary">More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--<div class="container mt-5">
-					<h6>DEMO</h6>
-<h5 class="subheadings">Put Speech-to-Text into action</h5>
-					<div class="container col-8">
-						<div class="subtexts">Input Type</div>
-						<div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="microphone" id="microphoneradio" value="option1">
-  <label class="form-check-label" for="microphone">Microphone</label>
-</div>
-<div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="fileupload" id="fileuploadradio" value="option2">
-  <label class="form-check-label" for="fileupload">File Upload</label>
-</div>
-						<div class="col-12"><select class="form-select mt-3" aria-label="selectlanguage">
-  <option selected>Select Language</option>
-  <option value="1">English (US)</option>
-  <option value="2">Espanol</option>
-  <option value="3">German</option>
-</select>
-						</div>
-						<div class="col-12 row mt-3">
-						<div class="col-6">
-							<label class="subtexts">Speaker Diarization</label>
-<select class="form-select" aria-label="selectlanguage">
-  <option selected>Off</option>
-  <option value="1">recognize Multiple Speakers in Single channel</option>
-  <option value="2">Downmix and recognize Multiple Speakers</option>
-  <option value="3">Recognize One Speaker per channel</option>
-</select>
-							</div>
-							<div class="col-4">
-							<label class="subtexts">Speakers</label>
-<select class="form-select" aria-label="selectlanguage">
-  <option selected>Off</option>
-  <option value="1">1 Speaker</option>
-  <option value="2">2 Speakers</option>
-  <option value="3">3 Speakers</option>
-</select>
-							</div>
-							<div class="col-2">
-							<div class="form-check form-switch">
-  <label class="form-check-label subtexts" for="Punctuation">Punctuation</label>
-  <input class="form-check-input m-0" type="checkbox" role="switch" id="Punctuation">
-</div>
-
-							</div>
-							<div class="col-12 mt-3">
-								<input type="file" class="btn-primary btn-sm">
-							</div>
-							</div>
-						
-					</div>
-				</div>-->
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Advantages 3</h5>
+                    <p class="card-text">
+                      Deploy ASR wherever you need it, whether in the cloud with
+                      the API or on-premises with Speech-to-Text On-Prem.<br />
+                    </p>
+                    <a href="#" class="btn btn-secondary">More</a>
+                  </div>
                 </div>
-                <!--<div class="col-12">
-					<h5 class="subheadings">Key Features</h5>
-					<div>
-					<strong>Speech adaptation</strong><p>
-						Provide hints to boost the transcription accuracy of rare and domain-specific words or phrases. Use classes to automatically convert spoken numbers into addresses, years, currencies, and more.
-
-						</p>
-					</div>
-					<div>
-					<strong>Domain-specific models</strong><p>
-						Choose from a selection of trained models for voice control, phone call, and video transcription optimized for domain-specific quality requirements. 
-						</p>
-
-					</div>
-					<div>
-					<strong>Easily compare quality</strong>
-<p>Experiment on your speech audio with our easy-to-use user interface. Try different configurations to optimize quality and accuracy.</p>
-					</div>
-					<div>
-			<strong>Speech-to-Text On-Prem</strong><p>
-Maintain control over your infrastructure and protected speech data by leveraging HPE’s speech recognition technology on-premises, in your own private data centers. Contact sales to get started.</p>
-					</div>
-			</div>-->
+              </div>
             </div>
-
-            <div class="col-12">
-
-            </div>
+          </div>
         </div>
 
+        <div class="col-12"></div>
+      </div>
     </div>
-    <div id="footer">
-        <div class="col-12 mt-3">
-            <div class="col-12" align="center">© Copyright 2022 Hewlett Packard Enterprise Development LP</div>
-            <div class="col-12" align="center">Privacy | Terms of Use | Ad Choices & Cookies | Do Not Sell My Personal
-                Information | Sitemap</div>
-        </div>
-        <div align="center" class="col-12 mt-4"><img src="/assets/images/hpe_element_rgb.svg" width="88" height="25" alt="" />
-        </div>
-    </div>
-</body>
-
+    <app-footer></app-footer>
+  </body>
 </html>
